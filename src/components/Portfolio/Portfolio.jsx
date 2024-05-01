@@ -23,7 +23,10 @@ const Portfolio = () => {
         grabCursor={true}
         className="portfolio-slider"
       >
-        <SwiperSlide>
+
+
+      {/*  
+      <SwiperSlide>
           <img src={Sidebar} alt="" />
         </SwiperSlide>
         <SwiperSlide>
@@ -35,6 +38,7 @@ const Portfolio = () => {
         <SwiperSlide>
           <img src={HOC} alt="" />
         </SwiperSlide>
+        */} 
       </Swiper>
     </div>
   );
